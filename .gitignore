@@ -11,3 +11,8 @@ web-build/
 
 # macOS
 .DS_Store
+/.idea*
+.idea*
+.idea/modules.xml
+.idea/todo.iml
+.idea/vcs.xml
