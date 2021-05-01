@@ -8,9 +8,12 @@ import {TouchableOpacity} from "react-native";
 
 export default function App() {
     const [task, setTask] = useState();
+    const [tasksItems, setTasksItems] = useState();
     // setTask('Walk');
     const handleAddTask = () => {
         console.log(task);
+        setTasksItems(...tasksItems, task);
+        setTask(null);
     }
     return (
         <View style={styles.container}>
